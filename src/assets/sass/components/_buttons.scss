@@ -1,0 +1,29 @@
+.button {
+
+  @include button(
+    $expand: false,
+    $background: $button-background,
+    $background-hover: $button-background-hover,
+    $color: $button-color,
+    $style: solid
+  );
+
+  margin: 0;
+  border-radius: $global-radius;
+
+  &.large {
+    padding: map-get($button-sizes, large);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: map-get($button-sizes, large);
+  }
+
+  // Colors
+  @each $name,
+  $color in $foundation-colors {
+    &.#{$name} {
+      @include button-style($color, auto, auto);
+    }
+  }
+}
+

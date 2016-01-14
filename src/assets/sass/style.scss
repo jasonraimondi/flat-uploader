@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+// this is a foundation specific library we are importing
+// from the foundation node_modules folder as seen in the
+// gulp sass task 'includePaths'
+@import 'global';
+
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// include the foundation mixins
+@import 'vendor/foundation6';
+
+@import 'base/typography';
+@import 'base/layout';
+
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/notifications';
+
+@import 'pages/index';
+@import 'pages/files';

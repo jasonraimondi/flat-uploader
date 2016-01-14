@@ -1,0 +1,26 @@
+#js-output {
+  width: 100%;
+}
+
+.notifications {
+  display: flex;
+  width: 100%;
+  background-color: $primary-color;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  text-align: center;
+
+  &.alert {
+    background-color: $alert-color;
+  }
+
+  &.success {
+    background-color: $success-color;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+}

@@ -1,0 +1,5 @@
+// import all of the foundation mixins, but none of the actual code
+@import 'foundation';
+
+// just get the main global styles from foundation
+@include foundation-global-styles;

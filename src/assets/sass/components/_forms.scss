@@ -1,0 +1,12 @@
+// @include foundation-form-text;
+// @include foundation-form-label;
+// @include foundation-form-prepostfix;
+// @include foundation-form-select;
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  @extend .button;
+}
