@@ -1,6 +1,6 @@
 {
   "name": "templater",
-  "version": "1.0.0",
+  "version": "22.0.0",
   "description": "HTML Template Builder",
   "keywords": [
     "html",
@@ -45,6 +45,6 @@
     "foundation-sites": "^6.1.1",
     "jquery": "^2.1.4",
     "jquery-form": "^3.50.0",
-    "motion-ui": "^1.1.1"
+    "mustache": "^2.2.1"
   }
 }

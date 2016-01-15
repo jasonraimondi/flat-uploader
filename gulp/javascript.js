@@ -39,7 +39,8 @@ var VENDOR = [
     // 'node_modules/foundation-sites/js/foundation.util.timerAndImageLoader.js',
     // 'node_modules/foundation-sites/js/foundation.util.touch.js',
     // 'node_modules/foundation-sites/js/foundation.util.triggers.js',
-    '/node_modules/motion-ui/motion-ui.js'
+    // '/node_modules/motion-ui/motion-ui.js',
+    'node_modules/mustache/mustache.js',
 ];
 
 var APP = [
